@@ -7,6 +7,9 @@ This tool replaces/extracts scripts for Guilty gear Rev2 at runtime. It can be u
 ## How do I use it?
 Simply grab a release, open up Rev2ModLoader.exe, and once Rev2 is running, click "Enable Mods" and it should hook into the game! You can now extract scripts once a match has loaded in, and the program will automatically load all scripts in the `rev2_mods` folder. All mod scripts should be names `<SHORTNAME.bbscript>` or `<SHORTNAME>_ETC.bbscript` to be loaded into the game.
 
+## Credit
+Credits to Labryz for work on programs like [rev-script-mod-py](https://github.com/Labreezy/rev-script-mod-py) that were inspirations for methods of hooking the game and for finding the original function needed to hook into script loading, this program couldn't have worked without the help
+
 ## Character Shortname List
 * Answer = ANS
 * Axl = AXL
