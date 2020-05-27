@@ -37,6 +37,12 @@
     <Reference Include="EasyHook, Version=2.7.7097.0, Culture=neutral, PublicKeyToken=4b580fca19d0b0c5, processorArchitecture=MSIL">
       <HintPath>packages\EasyHook.2.7.7097\lib\net40\EasyHook.dll</HintPath>
     </Reference>
+    <Reference Include="Fasm.NET, Version=1.0.4939.27955, Culture=neutral, processorArchitecture=x86">
+      <HintPath>packages\Fasm.NET.1.70.03\lib\Fasm.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="MemorySharp, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\MemorySharp.1.2.0\lib\MemorySharp.dll</HintPath>
+    </Reference>
     <Reference Include="Rev2ModLoader, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Rev2ModLoader\bin\x86\Release\Rev2ModLoader.exe</HintPath>
@@ -54,6 +60,7 @@
   <ItemGroup>
     <Compile Include="Hook.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="XrdServer.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="EasyHook32.dll">
@@ -74,6 +81,7 @@
     <Content Include="EasyLoad64.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Fasm.NET.xml" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

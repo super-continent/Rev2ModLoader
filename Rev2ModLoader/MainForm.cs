@@ -20,6 +20,8 @@ namespace Rev2ModLoader
             comboScriptSelected.SelectedIndex = 0;
             ML = new ModLoader();
 
+            buttonExtractScript.Enabled = false;
+
             if (!Directory.Exists("./rev2_mods"))
             {
                 Directory.CreateDirectory("rev2_mods");
@@ -30,6 +32,7 @@ namespace Rev2ModLoader
         {
             if (ML.Inject())
             {
+                buttonExtractScript.Enabled = true;
                 buttonInject.Enabled = false;
             }
         }

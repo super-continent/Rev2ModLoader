@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using System.Diagnostics;
 using EasyHook;
-using Rev2ModLoader;
 
 namespace Rev2Hook
 {
