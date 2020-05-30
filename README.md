@@ -36,3 +36,5 @@ Credits to Labryz for work on programs like [rev-script-mod-py](https://github.c
 * Sol = SOL
 * Venom = VEN
 * Zato-1 = ZAT
+
+For universal mechanics use CMN.bbscript or CMNEF.bbscript as the filename for the corresponding script.
