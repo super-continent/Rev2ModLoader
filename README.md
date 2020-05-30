@@ -5,7 +5,7 @@
 This tool replaces/extracts scripts for Guilty gear Rev2 at runtime. It can be used to mod the game, or to extract scripts for researching characters and their move properties. For parsing these scripts into a readable format see my other project [BBScript](https://github.com/super-continent/bbscript)
 
 ## How do I use it?
-Simply grab a release, open up Rev2ModLoader.exe, and once Rev2 is running, click "Enable Mods" and it should hook into the game! You can now extract scripts once a match has loaded in, and the program will automatically load all scripts in the `rev2_mods` folder. All mod scripts should be names `<SHORTNAME.bbscript>` or `<SHORTNAME>_ETC.bbscript` to be loaded into the game.
+Simply grab a release, open up Rev2ModLoader.exe, and once Rev2 is running, click "Enable Mods" and it should hook into the game! You can now extract scripts once a match has loaded in, and the program will automatically load all scripts in the `rev2_mods` folder. All mod scripts should be names `<SHORTNAME.bbscript>` or `<SHORTNAME>_ETC.bbscript` to be loaded into the game. For universal mechanics scripts use `CMN.bbscript` or `CMNEF.bbscript` as the filename for the corresponding script.
 
 ## Credit
 Credits to Labryz for work on programs like [rev-script-mod-py](https://github.com/Labreezy/rev-script-mod-py) that were inspirations for methods of hooking the game and for finding the original function needed to hook into script loading, this program couldn't have worked without the help
@@ -36,5 +36,3 @@ Credits to Labryz for work on programs like [rev-script-mod-py](https://github.c
 * Sol = SOL
 * Venom = VEN
 * Zato-1 = ZAT
-
-For universal mechanics use CMN.bbscript or CMNEF.bbscript as the filename for the corresponding script.
